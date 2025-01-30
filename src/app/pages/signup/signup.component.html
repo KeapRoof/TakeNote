@@ -1,0 +1,44 @@
+<div id="signup-page">
+  <form [formGroup]="form" class="card">
+    <div class="header">
+      <div class="title">Créer un compte</div>
+      <span class="subtitle">Vous avez déjà un compte?</span>
+      <a class="login-link" (click)="navigateToLogin()">Connectez-vous!</a>
+    </div>
+
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+
+    <div>
+      <label for="emailSignup" class="label">Email</label>
+      <input
+        id="emailSignup"
+        type="text"
+        placeholder="Adresse email"
+        class="input"
+        formControlName="email"
+      />
+
+      <label for="passwordSignup" class="label">Mot de passe</label>
+      <input
+        id="passwordSignup"
+        placeholder="Mot de passe"
+        class="input"
+        formControlName="password"
+        type="password"
+      />
+
+      <label for="usernameSignup" class="label">Nom d'utilisateur</label>
+      <input
+        id="usernameSignup"
+        type="text"
+        placeholder="Nom d'utilisateur"
+        class="input"
+        formControlName="username"
+      />
+
+      <button class="sign-up-btn" (click)="signup()">S'inscrire</button>
+    </div>
+  </form>
+</div>

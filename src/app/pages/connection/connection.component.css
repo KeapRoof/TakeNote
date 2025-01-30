@@ -1,0 +1,121 @@
+/* Container */
+.card {
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 30rem;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.logo {
+  height: 50px;
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  color: #212121;
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.subtitle {
+  color: #757575;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.create-account {
+  margin-left: 0.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #3b82f6;
+  cursor: pointer;
+}
+
+/* Input Fields */
+.label {
+  color: #212121;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 0.5rem;
+}
+
+.checkbox-label {
+  color: #212121;
+}
+
+.forgot-password {
+  margin-left: 0.5rem;
+  font-weight: 500;
+  color: #3b82f6;
+  cursor: pointer;
+  text-align: right;
+}
+
+/* Sign In Button */
+.sign-in-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-btn:hover {
+  background-color: #2563eb;
+}
+
+#connexion-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin: 10px 0;
+  text-align: center;
+}

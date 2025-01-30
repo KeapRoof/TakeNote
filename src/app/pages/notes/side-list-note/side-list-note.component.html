@@ -1,0 +1,17 @@
+<main>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <header>
+    <h2>Mes notes</h2>
+    <button (click)="onAddClick()">
+      <i class="fa-solid fa-plus icon" style="color: #ffffff;"></i> Nouvelle note
+    </button>
+  </header>
+  <div id="container">
+    @for (note of notesList; track note.note_id) {
+      <div class="note-wrapper">
+        <app-side-list-item-note [note]="note" (click)="onNoteClicked(note.note_id)"></app-side-list-item-note>
+        <button class="delete-btn" (click)="onDeleteClick(note.note_id)"><i class="fa-solid fa-trash" style="color: #ff0909; font-size: 1.5em;"></i></button>
+      </div>
+    }
+  </div>
+</main>
