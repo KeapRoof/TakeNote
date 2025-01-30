@@ -24,24 +24,10 @@ TakeNote est une application web permettant de prendre et sauvegarder des notes 
    cd takenote
    ```
 
-2. **Lancer la base de données avec Docker**
+2. **Lancer le projet avec Docker**
    ```sh
    cd backend
    docker-compose up -d
-   ```
-
-3. **Démarrer le backend**
-   ```sh
-   cd backend
-   pip install -r requirements.txt
-   uvicorn main:app --reload
-   ```
-
-4. **Démarrer le frontend**
-   ```sh
-   cd frontend
-   npm install
-   ng serve
    ```
 
 L'application sera accessible sur : [http://localhost:4200](http://localhost:4200)
