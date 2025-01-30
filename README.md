@@ -156,7 +156,7 @@ L'application sera accessible sur : [http://localhost:4200](http://localhost:420
 
 ## 👨‍💻 Auteurs
 
-- **Haithem** 
-- **Redouane**
-- **Jules**
-- **Ramazan**
+- [Haithem](https://github.com/KeapRoof)** 
+- **[Redouane](https://github.com/redoaztaz)**
+- **[Jules](https://github.com/C3ll0gr4m)**
+- **[Ramazan](https://github.com/Rameray1)**
