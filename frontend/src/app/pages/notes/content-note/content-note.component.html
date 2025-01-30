@@ -1,0 +1,19 @@
+<main class="content-note">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  @if (selectedNote$ | async; as selectedNote) {
+    <div class="note-header">
+      <input
+        [(ngModel)]="editableNote.note_name"
+        class="note-title"
+        value="selectedNote.note_name">
+      <button class="save-btn" (click)="onSaveClick()">Enregistrer</button>
+    </div>
+      <textarea
+        [(ngModel)]="editableNote.note_content"
+        class="note-content"
+        value="selectedNote.note_content">
+      </textarea>
+  }
+</main>

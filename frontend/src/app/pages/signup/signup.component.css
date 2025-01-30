@@ -1,0 +1,88 @@
+#signup-page .card {
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 30rem;
+  margin: auto;
+}
+
+#signup-page .header {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+#signup-page .logo {
+  height: 50px;
+  margin-bottom: 0.75rem;
+}
+
+#signup-page .title {
+  color: #212121;
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+#signup-page .subtitle {
+  color: #757575;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#signup-page .login-link {
+  margin-left: 0.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #3b82f6;
+  cursor: pointer;
+}
+
+#signup-page .label {
+  color: #212121;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+#signup-page .input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
+#signup-page .sign-up-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#signup-page .sign-up-btn:hover {
+  background-color: #2563eb;
+}
+
+#signup-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}

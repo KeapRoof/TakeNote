@@ -1,0 +1,35 @@
+<div id="connexion-page">
+  <form [formGroup]="form" class="card">
+    <div class="header">
+      <div class="title">Bienvenue</div>
+      <span class="subtitle">Vous n'avez pas de compte?</span>
+      <a class="create-account" (click)="navigateToSignup()">Créez-en un!</a>
+    </div>
+
+    <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+
+    <div>
+      <label for="email1" class="label">Email</label>
+      <input
+        id="email1"
+        type="text"
+        placeholder="Adresse email"
+        class="input"
+        name="email"
+        formControlName="email"
+      />
+
+      <label for="password1" class="label">Mot de passe</label>
+      <input
+        id="password1"
+        placeholder="Mot de passe"
+        class="input"
+        name="password"
+        formControlName="password"
+        type="password"
+      />
+
+      <button class="sign-in-btn" (click)="login()">Se connecter</button>
+    </div>
+  </form>
+</div>
