@@ -1,0 +1,54 @@
+# Directories to ignore
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Logs
+*.log
+*.out
+*.err
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+.cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# FastAPI-specific
+
+# Uvicorn log files (if used)
+*.log
+logs/
+
+# Static and media files (if applicable)
+staticfiles/
+mediafiles/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# PIP and requirements
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pydantic auto-generated files (optional, depending on usage)
+pydantic.json
