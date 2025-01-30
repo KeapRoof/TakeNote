@@ -20,7 +20,7 @@ TakeNote est une application web permettant de prendre et sauvegarder des notes 
 
 1. **Cloner le dépôt**
    ```sh
-   git clone https://github.com/ton-user/takenote.git
+   git clone https://github.com/KeapRoof/takenote.git
    cd takenote
    ```
 
